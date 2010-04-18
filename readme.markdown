@@ -1,7 +1,9 @@
 **Suicide**
+
 When method missing is called, it searches object space for the first object that responds. Partially inspired from Suicide Linux(http://qntm.org/suicide)
 
 **Installation**
+
 gem install suicide
 
 **Usage**
@@ -21,4 +23,5 @@ gem install suicide
     Bar.new.baz
 
 **Author**
+
 Ethan Gunderson <ethan@ethangunderson.com>
