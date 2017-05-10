@@ -9,7 +9,7 @@ class Object
         puts "This is not the duck we are looking for. Thinning the herd."
         ObjectSpace.undefine_finalizer(obj)
         obj = nil
-        ObjectSpace.gargabe_collect
+        ObjectSpace.garbage_collect
       end
     end
     puts "There are no ducks that quack that specific quack."
