@@ -2,7 +2,7 @@ class Object
   def method_missing(symbol, *args)
     ObjectSpace.each_object do |obj|
       if obj.respond_to?(symbol, true)
-        puts "We have searched the haystack and found the correct duck. Let us call that for you."
+        puts "We have searched the duckstack and found the correct duck. Squeezing the duck for you."
         obj.send(symbol, *args)
         return
       else
